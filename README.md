@@ -71,26 +71,6 @@ Detailed Code Description
 generate_prime_list: Generates primes within a given range using the isprime function from Sympy.
 2. Fractal Interpolation and Parameter Fitting
 fractal_prime_model_safe: Defines the fractal model function 
-𝑃
-(
-𝑛
-)
-=
-𝑎
-log
-⁡
-(
-∣
-𝑏
-𝑛
-+
-𝑐
-∣
-+
-1
-)
-+
-𝑑
 P(n)=alog(∣bn+c∣+1)+d.
 fit_fractal_prime_model_safe: Fits the model to primes in a specified range using multiple initial guesses to avoid local minima.
 generate_fractal_primes: Predicts primes using the fitted fractal model.
